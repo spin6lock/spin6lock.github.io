@@ -21,7 +21,8 @@
 title: spin6lock's blog
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-    My blog migrated from CNBlogs.
+    Share some thoughts about IT.
+    分享一些工作经验
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://spin6lock.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: spin6lock
@@ -37,6 +38,10 @@ kramdown:
     input: GFM
     syntax_highlighter: rouge
 
+disqus:
+    shortname: spin6lock
+
+google_analytics: UA-155761507-1
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
