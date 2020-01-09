@@ -3,7 +3,7 @@ layout:     post
 title:      为python-sproto添加map支持
 subtitle:   
 date:       2015-06-04
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-e2e-ux.jpg
 catalog: true
 tags:

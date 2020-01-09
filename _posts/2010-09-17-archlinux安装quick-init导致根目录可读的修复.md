@@ -3,7 +3,7 @@ layout:     post
 title:      archlinux安装quick-init导致根目录可读的修复
 subtitle:   
 date:       2010-09-17
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-iWatch.jpg
 catalog: true
 tags:

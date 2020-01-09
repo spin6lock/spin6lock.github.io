@@ -3,7 +3,7 @@ layout:     post
 title:      《TheEvolutionofLua》读书笔记1
 subtitle:   
 date:       2016-10-30
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-e2e-ux.jpg
 catalog: true
 tags:

@@ -3,7 +3,7 @@ layout:     post
 title:      GreaseMonkey渐进
 subtitle:   
 date:       2011-06-28
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:

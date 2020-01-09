@@ -3,7 +3,7 @@ layout:     post
 title:      pysprotobug修复
 subtitle:   
 date:       2016-03-25
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-e2e-ux.jpg
 catalog: true
 tags:

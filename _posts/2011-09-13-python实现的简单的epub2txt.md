@@ -3,7 +3,7 @@ layout:     post
 title:      python实现的简单的epub2txt
 subtitle:   
 date:       2011-09-13
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-desk.jpg
 catalog: true
 tags:

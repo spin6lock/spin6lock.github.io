@@ -3,7 +3,7 @@ layout:     post
 title:      LessonLearned
 subtitle:   
 date:       2018-04-21
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-debug.png
 catalog: true
 tags:

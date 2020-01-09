@@ -3,7 +3,7 @@ layout:     post
 title:      TheimplementationofLua5.0阅读笔记（二）
 subtitle:   
 date:       2013-07-17
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:

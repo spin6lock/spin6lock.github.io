@@ -3,7 +3,7 @@ layout:     post
 title:      systemtap折腾笔记
 subtitle:   
 date:       2013-11-22
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-keybord.jpg
 catalog: true
 tags:

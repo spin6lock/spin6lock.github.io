@@ -3,7 +3,7 @@ layout:     post
 title:      为sproto手写了一个pythonparser
 subtitle:   
 date:       2015-12-13
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-github-cup.jpg
 catalog: true
 tags:

@@ -3,7 +3,7 @@ layout:     post
 title:      银行家算法（Thebanker'salgorithm)
 subtitle:   
 date:       2009-09-28
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-alibaba.jpg
 catalog: true
 tags:

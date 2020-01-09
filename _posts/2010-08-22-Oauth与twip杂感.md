@@ -3,7 +3,7 @@ layout:     post
 title:      Oauth与twip杂感
 subtitle:   
 date:       2010-08-22
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-miui6.jpg
 catalog: true
 tags:

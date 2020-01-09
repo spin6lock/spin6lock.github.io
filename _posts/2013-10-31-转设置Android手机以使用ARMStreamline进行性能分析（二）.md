@@ -3,7 +3,7 @@ layout:     post
 title:      转设置Android手机以使用ARMStreamline进行性能分析（二）
 subtitle:   
 date:       2013-10-31
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-mma-5.jpg
 catalog: true
 tags:

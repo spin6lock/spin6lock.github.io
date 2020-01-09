@@ -3,7 +3,7 @@ layout:     post
 title:      在cygwin上安装gevent
 subtitle:   
 date:       2011-02-18
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-mma-4.jpg
 catalog: true
 tags:

@@ -3,7 +3,7 @@ layout:     post
 title:      Techparty-广州10月31日Docker专场沙龙后记
 subtitle:   
 date:       2015-10-31
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-BJJ.jpg
 catalog: true
 tags:

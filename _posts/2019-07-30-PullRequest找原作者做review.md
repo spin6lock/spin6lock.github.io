@@ -3,7 +3,7 @@ layout:     post
 title:      PullRequest找原作者做review
 subtitle:   
 date:       2019-07-30
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-mma-6.jpg
 catalog: true
 tags:

@@ -3,7 +3,7 @@ layout:     post
 title:      Ubuntu下利用expect脚本自动登录ssh作代理
 subtitle:   
 date:       2010-09-05
-author:     Mehaei
+author:     spin6lock
 header-img: img/home-bg-geek.jpg
 catalog: true
 tags:

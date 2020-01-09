@@ -3,7 +3,7 @@ layout:     post
 title:      FreeBSD打开DTrace支持
 subtitle:   
 date:       2013-10-29
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-unix-linux.jpg
 catalog: true
 tags:

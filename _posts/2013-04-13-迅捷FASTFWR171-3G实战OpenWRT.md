@@ -3,7 +3,7 @@ layout:     post
 title:      迅捷FASTFWR171-3G实战OpenWRT
 subtitle:   
 date:       2013-04-13
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-swift2.jpg
 catalog: true
 tags:

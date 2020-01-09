@@ -3,7 +3,7 @@ layout:     post
 title:      RBF、K-NN与Decisiontree
 subtitle:   
 date:       2010-03-24
-author:     Mehaei
+author:     spin6lock
 header-img: img/home-bg-geek.jpg
 catalog: true
 tags:

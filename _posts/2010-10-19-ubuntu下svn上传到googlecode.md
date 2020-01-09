@@ -3,7 +3,7 @@ layout:     post
 title:      ubuntu下svn上传到googlecode
 subtitle:   
 date:       2010-10-19
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:

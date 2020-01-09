@@ -3,7 +3,7 @@ layout:     post
 title:      《TheEvolutionofLua》翻译part2
 subtitle:   
 date:       2016-11-28
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-mma-2.jpg
 catalog: true
 tags:

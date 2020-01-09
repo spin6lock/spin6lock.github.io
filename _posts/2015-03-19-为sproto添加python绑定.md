@@ -3,7 +3,7 @@ layout:     post
 title:      为sproto添加python绑定
 subtitle:   
 date:       2015-03-19
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-coffee.jpeg
 catalog: true
 tags:

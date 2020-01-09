@@ -3,7 +3,7 @@ layout:     post
 title:      根据pythonprotobuf自动生成protobuf包收发接口
 subtitle:   
 date:       2011-11-07
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-unix-linux.jpg
 catalog: true
 tags:

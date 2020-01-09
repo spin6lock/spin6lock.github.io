@@ -3,7 +3,7 @@ layout:     post
 title:      python-twitter与第三方api协作
 subtitle:   
 date:       2010-08-25
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-YesOrNo.jpg
 catalog: true
 tags:

@@ -3,7 +3,7 @@ layout:     post
 title:      Mongodb在NUMA机器上的优化
 subtitle:   
 date:       2013-11-15
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-sample-image.jpg
 catalog: true
 tags:

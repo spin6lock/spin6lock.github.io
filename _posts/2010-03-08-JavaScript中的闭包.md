@@ -3,7 +3,7 @@ layout:     post
 title:      JavaScript中的闭包
 subtitle:   
 date:       2010-03-08
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-kuaidi.jpg
 catalog: true
 tags:

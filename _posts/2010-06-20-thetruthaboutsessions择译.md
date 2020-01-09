@@ -3,7 +3,7 @@ layout:     post
 title:      thetruthaboutsessions择译
 subtitle:   
 date:       2010-06-20
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-mma-5.jpg
 catalog: true
 tags:

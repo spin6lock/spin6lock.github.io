@@ -3,7 +3,7 @@ layout:     post
 title:      着迷twittering
 subtitle:   
 date:       2010-09-04
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:

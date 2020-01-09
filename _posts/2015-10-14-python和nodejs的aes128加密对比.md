@@ -3,7 +3,7 @@ layout:     post
 title:      python和nodejs的aes128加密对比
 subtitle:   
 date:       2015-10-14
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-android.jpg
 catalog: true
 tags:

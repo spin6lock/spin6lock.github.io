@@ -3,7 +3,7 @@ layout:     post
 title:      git和redmine同步
 subtitle:   
 date:       2017-11-25
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-miui6.jpg
 catalog: true
 tags:

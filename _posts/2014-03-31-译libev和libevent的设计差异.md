@@ -3,7 +3,7 @@ layout:     post
 title:      译libev和libevent的设计差异
 subtitle:   
 date:       2014-03-31
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-debug.png
 catalog: true
 tags:

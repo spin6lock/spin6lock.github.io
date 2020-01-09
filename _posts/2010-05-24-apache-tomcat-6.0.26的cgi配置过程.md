@@ -3,7 +3,7 @@ layout:     post
 title:      apache-tomcat-6.0.26的cgi配置过程
 subtitle:   
 date:       2010-05-24
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-mma-0.png
 catalog: true
 tags:

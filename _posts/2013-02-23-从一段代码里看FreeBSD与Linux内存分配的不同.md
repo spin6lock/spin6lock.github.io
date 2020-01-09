@@ -3,7 +3,7 @@ layout:     post
 title:      从一段代码里看FreeBSD与Linux内存分配的不同
 subtitle:   
 date:       2013-02-23
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:

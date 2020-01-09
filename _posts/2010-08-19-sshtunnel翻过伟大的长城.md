@@ -3,7 +3,7 @@ layout:     post
 title:      sshtunnel翻过伟大的长城
 subtitle:   
 date:       2010-08-19
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-mma-4.jpg
 catalog: true
 tags:

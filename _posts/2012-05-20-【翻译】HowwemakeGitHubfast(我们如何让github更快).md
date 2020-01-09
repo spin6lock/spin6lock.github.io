@@ -3,7 +3,7 @@ layout:     post
 title:      【翻译】HowwemakeGitHubfast(我们如何让github更快)
 subtitle:   
 date:       2012-05-20
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-alibaba.jpg
 catalog: true
 tags:

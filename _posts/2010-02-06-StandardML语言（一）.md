@@ -3,7 +3,7 @@ layout:     post
 title:      StandardML语言（一）
 subtitle:   
 date:       2010-02-06
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-kuaidi.jpg
 catalog: true
 tags:

@@ -3,7 +3,7 @@ layout:     post
 title:      redis-persist上线
 subtitle:   
 date:       2014-10-16
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:

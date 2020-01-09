@@ -3,7 +3,7 @@ layout:     post
 title:      使用python对txt格式的小说进行处理
 subtitle:   
 date:       2011-02-04
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-digital-native.jpg
 catalog: true
 tags:

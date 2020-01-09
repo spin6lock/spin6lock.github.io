@@ -3,7 +3,7 @@ layout:     post
 title:      初探groupcache
 subtitle:   
 date:       2014-01-09
-author:     Mehaei
+author:     spin6lock
 header-img: img/home-bg-geek.jpg
 catalog: true
 tags:

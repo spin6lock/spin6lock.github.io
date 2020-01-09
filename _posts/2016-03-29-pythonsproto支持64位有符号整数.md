@@ -3,7 +3,7 @@ layout:     post
 title:      pythonsproto支持64位有符号整数
 subtitle:   
 date:       2016-03-29
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-mma-2.jpg
 catalog: true
 tags:

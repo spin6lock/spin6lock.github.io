@@ -3,7 +3,7 @@ layout:     post
 title:      CrossSiteRequestForgeries跨站伪请求
 subtitle:   
 date:       2010-07-09
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-mma-6.jpg
 catalog: true
 tags:

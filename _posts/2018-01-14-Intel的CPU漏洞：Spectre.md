@@ -3,7 +3,7 @@ layout:     post
 title:      Intel的CPU漏洞：Spectre
 subtitle:   
 date:       2018-01-14
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-mma-4.jpg
 catalog: true
 tags:

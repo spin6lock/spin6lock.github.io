@@ -3,7 +3,7 @@ layout:     post
 title:      supervisor很赞！
 subtitle:   
 date:       2013-08-29
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-ioses.jpg
 catalog: true
 tags:

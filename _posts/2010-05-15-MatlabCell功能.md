@@ -3,7 +3,7 @@ layout:     post
 title:      MatlabCell功能
 subtitle:   
 date:       2010-05-15
-author:     Mehaei
+author:     spin6lock
 header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
