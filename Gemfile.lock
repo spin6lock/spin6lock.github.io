@@ -248,6 +248,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
+  jekyll-paginate
   minima (~> 2.5)
   redcarpet
   tzinfo (~> 1.2)
