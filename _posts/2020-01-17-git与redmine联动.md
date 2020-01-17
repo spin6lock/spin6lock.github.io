@@ -12,6 +12,6 @@ all_issue是列出当前指派给自己的所有单号，配合fix_issue，可�
 ```
 就能批量关单了
 
-最后搞了个fix_conflict，在大提交 `git cherry-pick` 以后很容易有冲突，冲突后要手动一个个文件打开，编辑冲突，然后 `git add` 一下。这个工具可以帮忙自动调 `$EDITOR` 环境变量来打开冲突文件，最后帮忙 `git add`。已知的缺陷是，a文件在分支1还在，但分支2删掉了，在分支2上cherry-pick分支1的提交，冲突文件里就会有delete by us的冲突，最后导致错误`git add`。目前尚未解决
+最后搞了个fix_conflict，在大提交 `git cherry-pick` 以后很容易有冲突，冲突后要手动一个个文件打开，编辑冲突，然后 `git add` 一下。这个工具可以帮忙自动调 `$EDITOR` 环境变量来打开冲突文件，最后帮忙 `git add`。~~已知的缺陷是，a文件在分支1还在，但分支2删掉了，在分支2上cherry-pick分支1的提交，冲突文件里就会有delete by us的冲突，最后导致错误`git add`。目前尚未解决~~ EDIT:已解决 https://github.com/spin6lock/git_with_redmine/commit/d1c83b61d151b2b6c5fe3d2ccab970222f45937b
 
 博客将评论系统从Disqus换成了utteranc，还是老外的比较注重权限和隐私。国内的类似插件要求评论者给访问权限，还是整个账号的，太危险了。（说的就是Gitalk）
