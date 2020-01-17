@@ -21,8 +21,8 @@
 title: spin6lock's blog
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Share some thoughts about IT.
-    分享一些工作经验
+    Don't Repeat Yourself
+    好奇心驱动进步
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://spin6lock.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: spin6lock
