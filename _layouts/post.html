@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h2 class="post_title">
+    {{ page.title }}
+    {% if page.date %}
+      <small>{{ page.date | date_to_string }}</small>
+    {% endif %}
+</h2>
+
+{{ content }}
+
+<script src="https://utteranc.es/client.js"
+        repo="spin6lock.github.io"
+        issue-term="og:title"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

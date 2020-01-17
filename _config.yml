@@ -41,9 +41,6 @@ kramdown:
     input: GFM
     syntax_highlighter: rouge
 
-disqus:
-    shortname: spin6lock
-
 google_analytics: UA-155761507-1
 
 paginate: 6
