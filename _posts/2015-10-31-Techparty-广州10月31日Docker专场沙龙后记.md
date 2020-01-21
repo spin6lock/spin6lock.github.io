@@ -19,8 +19,8 @@ Coding的主讲人是叶雨飞。叶大吐槽了Docker的种种缺点，registry
 
 UPDATE：
 
-官网总结：[http://techparty.org/guangzhou/2015/11/01/guangzhou-docker-event-summary.html](http://techparty.org/guangzhou/2015/11/01/guangzhou-docker-event-summary.html)
+[官网总结链接：](http://techparty.org/guangzhou/2015/11/01/guangzhou-docker-event-summary.html)
 
-芒果TV：[http://7fvga6.com1.z0.glb.clouddn.com/techparty/gztechparty201510/ppt/Docker2.pdf](http://7fvga6.com1.z0.glb.clouddn.com/techparty/gztechparty201510/ppt/Docker2.pdf)
+[芒果TV：](http://7fvga6.com1.z0.glb.clouddn.com/techparty/gztechparty201510/ppt/Docker2.pdf)
 
-码市docker总结：[http://7fvga6.com1.z0.glb.clouddn.com/techparty/gztechparty201510/ppt/CodingDocker%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5%E4%B8%8E%E7%9A%84%E6%80%9D%E8%80%83.pdf](http://7fvga6.com1.z0.glb.clouddn.com/techparty/gztechparty201510/ppt/CodingDocker%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5%E4%B8%8E%E7%9A%84%E6%80%9D%E8%80%83.pdf)
+[码市docker总结：](http://7fvga6.com1.z0.glb.clouddn.com/techparty/gztechparty201510/ppt/CodingDocker%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5%E4%B8%8E%E7%9A%84%E6%80%9D%E8%80%83.pdf)
