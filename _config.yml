@@ -27,14 +27,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://spin6lock.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: spin6lock
 github_username:  spin6lock
+search: true
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-include-cache
 
 # markdown rendering
 kramdown:
@@ -45,6 +46,9 @@ google_analytics: UA-155761507-1
 
 paginate: 6
 paginate_path: "/page:num"
+
+remote_theme: "mmistakes/minimal-mistakes@4.17.2"
+minimal_mistakes_skin: air
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
