@@ -1,4 +1,15 @@
-# git与redmine联动
+---
+layout:     post
+title:      "git与redmine联动"
+subtitle:   ""
+date:       2020-01-17
+author:     "spin6lock"
+catalog:    true
+tags:
+    - git 
+    - Redmine
+    - Python
+---
 
 现在留给开发的提交权限越来越少了，qc同学为了保证测试覆盖，让搞了个钩子，提交信息里必须写单号，没有qc单子的提交会弹钉钉警告，提错版本的也会被警告，心累。最近一周比较闲，决定用Python脚本做个类似的检查辅助一下
 
