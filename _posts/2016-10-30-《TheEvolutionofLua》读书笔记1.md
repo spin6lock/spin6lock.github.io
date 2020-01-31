@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      《TheEvolutionofLua》读书笔记1
+title:      《TheEvolutionofLua》读书笔记 1
 subtitle:   
 date:       2016-10-30
 author:     spin6lock

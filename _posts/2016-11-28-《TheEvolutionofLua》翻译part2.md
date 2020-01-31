@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      《TheEvolutionofLua》翻译part2
+title:      《TheEvolutionofLua》翻译 part2
 subtitle:   
 date:       2016-11-28
 author:     spin6lock

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      virtualbox安装gentoo
+title:      virtualbox 安装 gentoo
 subtitle:   
 date:       2010-09-14
 author:     spin6lock
@@ -9,9 +9,9 @@ catalog: true
 tags:
     - python
 ---
-一直想尝试一下fvwm，又不想搞坏现在的ubuntu，顺便就搞个gentoo玩玩。
+一直想尝试一下 fvwm，又不想搞坏现在的 ubuntu，顺便就搞个 gentoo 玩玩。
 
-基本的安装顺序照官方的guidebook就可以了，但配置内核的时候要注意如下选项：
+基本的安装顺序照官方的 guidebook 就可以了，但配置内核的时候要注意如下选项：
 
 ```
 Processor type and features  --->
@@ -51,21 +51,21 @@ Device Drivers  --->
 
 ```
 
-按以上配置的时候就可以得到virtualbox-friendly 的kernel了
+按以上配置的时候就可以得到 virtualbox-friendly 的 kernel 了
 
 配置完成后继续按照官方指南做就可以了。
 
-有两个地方花了我很多时间，一个是文件系统，一个是网卡驱动，照以上配置应该可以顺利完成。网络方面，我采用NAT共享，所以在minimal CD的时候就要顺道把dhcpcd装上，免得启动以后上不了网emerge。
+有两个地方花了我很多时间，一个是文件系统，一个是网卡驱动，照以上配置应该可以顺利完成。网络方面，我采用 NAT 共享，所以在 minimal CD 的时候就要顺道把 dhcpcd 装上，免得启动以后上不了网 emerge。
 
-mirrorselect貌似不起作用，检查配置的时候记得顺手加上，我用的是163的源，速度蛮快的。
+mirrorselect 貌似不起作用，检查配置的时候记得顺手加上，我用的是 163 的源，速度蛮快的。
 
-我的最终目标是安装X，所以还要麻烦一点。基本的virtualbox Guest addition要装上，然后是
+我的最终目标是安装 X，所以还要麻烦一点。基本的 virtualbox Guest addition 要装上，然后是
 
 xfree86-input-virtualbox
 
 xfree86-video-virtualbox
 
-最后配置/etc/X11/xorg.conf
+最后配置 /etc/X11/xorg.conf
 
 ```
 Section "Device"
@@ -103,9 +103,9 @@ EndSection
 
 ```
 
-官方指南里说xorg-x11和xorg-server是等效的，只是xorg-x11带了很多字体，推荐用xorg-server。
+官方指南里说 xorg-x11 和 xorg-server 是等效的，只是 xorg-x11 带了很多字体，推荐用 xorg-server。
 
-没想到x-term、xclock、tvm等等都要自己手动装
+没想到 x-term、xclock、tvm 等等都要自己手动装
 
 参考：
 

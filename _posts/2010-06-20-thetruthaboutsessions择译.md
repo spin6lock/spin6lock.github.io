@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      thetruthaboutsessions择译
+title:      thetruthaboutsessions 择译
 subtitle:   
 date:       2010-06-20
 author:     spin6lock
