@@ -30,6 +30,7 @@ github_username:  spin6lock
 
 # Build settings
 theme: minima
+highligter: rouge
 search: true
 plugins:
   - jekyll-feed
