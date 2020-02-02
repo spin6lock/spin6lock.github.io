@@ -1,0 +1,31 @@
+.one-tag-list .tag-text {
+  font-weight: 200;
+  line-height: 1.7;
+}
+.one-tag-list .post-preview {
+  position: relative;
+}
+.one-tag-list .post-preview > a .post-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.one-tag-list .post-preview > a .post-subtitle {
+  font-size: 12px;
+}
+.one-tag-list .post-preview > .post-meta {
+  position: absolute;
+  right: 5px;
+  bottom: 0px;
+  margin: 0px;
+  font-size: 12px;
+  line-height: 12px;
+}
+.listing-seperator {
+  color: #0085a1;
+  font-size: 21px !important;
+}
+.listing-seperator::before {
+  margin-right: 5px;
+}
+
