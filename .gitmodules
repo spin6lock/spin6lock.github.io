@@ -1,3 +1,3 @@
 [submodule "post_add_space"]
 	path = post_add_space
-	url = ./post_add_space
+	url = https://github.com/spin6lock/post_add_space.git
