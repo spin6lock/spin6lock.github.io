@@ -43,7 +43,7 @@ def git_commit_push():
 def main():
     title = handle_args()
     prepare_file(title)
-    subprocess.call(["fd", ".", "_posts/", "--changed-within=5min", "-x", "python3", "post_add_space/main.py"]) 
+    subprocess.call(["fd", ".", "_posts/", "--changed-within=5min", "-x", "python3", "_post_add_space/main.py"]) 
     git_commit_push()
 
 if __name__ == "__main__":
