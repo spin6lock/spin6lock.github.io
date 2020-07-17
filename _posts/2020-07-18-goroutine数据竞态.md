@@ -42,4 +42,10 @@ tags:
 ```
 golang 的 data race 检测提示 77 行的 `scon.Read` 与 112 行的 `conn.Write` 有竞态，112 行正在读的时候，77 行写了，导致数据异常。想了一会终于想明白了。。。82 行的赋值并没有拷贝过程，只是创建了一个 Slice，这个 Slice 指向 `scp_buf` 这个字节数组。当 `writePipe` 从 `writeCh` 中读出 data 后，75 行的 go 协程就能继续跑了，于是 `scon.Read` 继续修改 `scp_buf`，而 `conn.Write` 在读指向 `scp_buf` 的 `data`，导致数据异常。
 
-针对这种情况，可以对 scp_buf 加读写锁；也可以多复制一份 data 数据出来，供 `writePipe` 读；或者通过 Ring 环形链表来实现两个 buf 替换，`scon.Read` 写其中一个的时候，`writePipe` 读另外一个，Ring 的大小就是缓冲区的大小，从 goscon 读和写入客户端的速度相差较大的话，可以多搞点缓冲区。目前采取的是多复制一份 data 数据来解决
+针对这种情况，大致想到3种解决办法：
+
+1. 可以对 scp_buf 加读写锁
+2. 可以多复制一份 data 数据出来，供 `writePipe` 读
+3. 或者通过 Ring 环形链表来实现两个 buf 替换，`scon.Read` 写其中一个的时候，`writePipe` 读另外一个，Ring 的大小就是缓冲区的大小，从 goscon 读和写入客户端的速度相差较大的话，可以多搞点缓冲区
+
+目前采取的是方案2来解决，GC压力可能会比较大，到时候再酌情更换方案3或者方案1
