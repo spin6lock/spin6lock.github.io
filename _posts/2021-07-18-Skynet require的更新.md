@@ -10,7 +10,7 @@ tags:
 - require
 ---
 
-最近升级项目依赖的中间件，中间件组的同学强力推荐（~~ 打发 XD~~）我去看看 skynet.require 的修改，很有趣，而且是其中一个比较大的不兼容改动，我重新看了 [Skynet 的代码 ](https://github.com/cloudwu/skynet/commits/master/lualib/skynet/require.lua) 确实比以前更好用了，这里简单分享一下
+最近升级项目依赖的中间件，中间件组的同学强力推荐（~~打发XD~~）我去看看 skynet.require 的修改，很有趣，而且是其中一个比较大的不兼容改动，我重新看了 [Skynet 的代码 ](https://github.com/cloudwu/skynet/commits/master/lualib/skynet/require.lua) 确实比以前更好用了，这里简单分享一下
 
 服务启动的时候，往往会用到 sharedata 服务来全局共享一份数据表。sharedata 服务的 API 初始化时会使用 skynet.call 来调用 sharedata 服务，因为 call 最终会调用 yield，而 require 是一个 C 实现的函数，无法在其中 yield，就会报错。为了解决这个问题，一般是将这段 call 放进 Skynet.init 包裹的匿名函数中运行
 
