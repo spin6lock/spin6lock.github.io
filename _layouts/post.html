@@ -23,7 +23,7 @@ layout: default
   {%- if page.tags.size > 0 -%}
     Tag{%- if page.tags.size > 1 -%}s{%- endif -%}: 
 		{% for tag in page.tags %}
-			<a href="{{ "tags.html#" | append: tag[0] | relative_url }}" class="tag">{{ tag[0]}}</a>
+			<a href="{{ "tags.html#" | append: tag | relative_url }}" class="tag">{{ tag }}</a>
 		{% endfor %}
   {%- endif -%}
   </div>
