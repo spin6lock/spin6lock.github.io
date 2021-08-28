@@ -27,6 +27,7 @@ date:       {datetime.datetime.now():%Y-%m-%d}
 author:     "spin6lock"
 catalog:    true
 tags:
+- tag
 ---
 """
     filepath = os.path.join("_posts", post_filename) 
