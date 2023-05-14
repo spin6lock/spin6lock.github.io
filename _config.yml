@@ -45,6 +45,12 @@ kramdown:
 
 google_analytics: UA-155761507-1
 
+# Analytics
+analytics:
+    provider: "google-gtag"
+    google:
+        measurement_id: "G-KVQ2HWX62D"
+
 paginate: 6
 paginate_path: "/page:num"
 # Exclude from processing.
