@@ -75,7 +75,7 @@ jobs:
         with:
           ruby-version: '3.3.5' # Use specific version for consistency
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 1 # Incremented to force fresh gem installation
+          cache-version: 2 # Incremented to force fresh gem installation after updating gems
       
       - name: Update Bundler and install gems
         run: |
