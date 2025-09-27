@@ -31,15 +31,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-	- name: Install Ruby
-	  run: |
-		git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-		echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-		source ~/.bashrc
-		git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
-		rbenv install 3.1.0
-		rbenv global 3.1.0
-		ruby -v
+      - name: Install Ruby
+        run: |
+          git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+          echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+          source ~/.bashrc
+          git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+          rbenv install 3.1.0
+          rbenv global 3.1.0
+          ruby -v
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
