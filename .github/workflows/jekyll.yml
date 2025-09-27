@@ -33,6 +33,41 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
+      # Install Ruby for self-hosted runners if not already available
+      - name: Install Ruby for self-hosted runners
+        run: |
+          RUBY_VERSION="3.1.4"
+          RUBY_PATH="/opt/hostedtoolcache/Ruby/${RUBY_VERSION}/x64"
+          
+          # Check if Ruby is already installed and marked as complete
+          if [ ! -f "${RUBY_PATH}.complete" ]; then
+            echo "Ruby ${RUBY_VERSION} not found in tool cache, installing..."
+            
+            # Install ruby-build if not available
+            if ! command -v ruby-build &> /dev/null; then
+              echo "Installing ruby-build..."
+              sudo apt-get update
+              sudo apt-get install -y git build-essential libssl-dev libreadline-dev zlib1g-dev
+              git clone https://github.com/rbenv/ruby-build.git /tmp/ruby-build
+              sudo /tmp/ruby-build/install.sh
+            fi
+            
+            # Create directory if it doesn't exist
+            sudo mkdir -p "$(dirname "${RUBY_PATH}")"
+            
+            # Install Ruby using ruby-build
+            echo "Installing Ruby ${RUBY_VERSION} to ${RUBY_PATH}..."
+            sudo ruby-build "${RUBY_VERSION}" "${RUBY_PATH}"
+            
+            # Mark installation as complete
+            sudo touch "${RUBY_PATH}.complete"
+            echo "Ruby ${RUBY_VERSION} installation completed"
+          else
+            echo "Ruby ${RUBY_VERSION} already installed in tool cache"
+          fi
+        shell: bash
+        
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
