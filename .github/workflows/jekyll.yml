@@ -37,7 +37,7 @@ jobs:
       # Install Ruby for self-hosted runners if not already available
       - name: Install Ruby for self-hosted runners
         # Only run on self-hosted runners (GitHub-hosted runners already have Ruby)
-        if: ${{ runner.environment == 'self-hosted' }}
+        if: ${{ contains(runner.name, 'self-hosted') }}
         run: |
           RUBY_VERSION="3.3.5"
           RUBY_PATH="/opt/hostedtoolcache/Ruby/${RUBY_VERSION}/x64"
@@ -71,11 +71,18 @@ jobs:
         shell: bash
         
       - name: Setup Ruby
-        uses: ruby/setup-ruby@0481980f17b760ef6bca5e8c55809102a0af1e5a # v1.263.0
+        uses: ruby/setup-ruby@v1.263.0 # Updated to latest stable version
         with:
-          ruby-version: '3.3' # Updated to a more recent supported version
+          ruby-version: '3.3.5' # Use specific version for consistency
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          cache-version: 1 # Incremented to force fresh gem installation
+      
+      - name: Update Bundler and install gems
+        run: |
+          gem update --system
+          bundle update --bundler
+          bundle install
+      
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
