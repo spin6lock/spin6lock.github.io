@@ -35,4 +35,4 @@ hugo --cleanDestinationDir --gc --minify --environment production --printPathWar
 
 ## 发布
 
-推送到 `master` 后，GitHub Actions 自动构建并发布到 GitHub Pages，无需提交 `public/`。仓库的 **Settings → Pages → Source** 应设为 **GitHub Actions**。评论继续使用原有的 Utterances 仓库及文章标题映射；统计配置在 `hugo.yaml`。
+推送到 `master` 后，GitHub Actions 自动构建并发布到 GitHub Pages，无需提交 `public/`。仓库的 **Settings → Pages → Source** 应设为 **GitHub Actions**。评论继续使用原有的 Utterances 仓库及文章标题映射，评论区明暗模式随站点切换；统计配置在 `hugo.yaml`。
