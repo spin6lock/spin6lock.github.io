@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="container td-content py-5">
+  <h1>{{ .Site.Title }}</h1>
+  <p>{{ .Site.Params.description }}</p>
+  <h2>最新文章</h2>
+  {{ $posts := where .Site.RegularPages "Section" "blog" }}
+  {{ $paginator := .Paginate $posts.ByDate.Reverse 12 }}
+  <ul class="td-blog-posts-list" data-td-blog-form="list">
+    {{ range $paginator.Pages }}
+      {{ partial "shell/blog-row.html" (dict "page" . "linkImage" false) }}
+    {{ end }}
+  </ul>
+  {{ partial "pagination.html" . }}
+</div>
+{{ end }}

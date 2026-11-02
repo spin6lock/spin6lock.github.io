@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="td-content">
+  <h1>{{ .Title }}</h1>
+  <nav aria-label="标签">
+    {{ range $name, $pages := .Site.Taxonomies.tags }}
+      <a class="td-badge td-badge--solid" href="#{{ $name }}">{{ $name }}</a>
+    {{ end }}
+  </nav>
+  {{ range $name, $pages := .Site.Taxonomies.tags }}
+    <section id="{{ $name }}">
+      {{ $seen := newScratch }}
+      {{ range $pages.Pages }}
+        {{ $tags := .Params.tags }}
+        {{ if not (reflect.IsSlice $tags) }}{{ $tags = slice $tags }}{{ end }}
+        {{ range $tags }}
+          {{ if and (eq (urlize .) (urlize $name)) (ne . $name) (not ($seen.Get .)) }}
+            <span id="{{ . }}"></span>
+            {{ $seen.Set . true }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      <h2>{{ $name }}</h2>
+      <ul>
+        {{ range $pages.Pages.ByDate.Reverse }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+</div>
+{{ end }}

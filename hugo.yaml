@@ -1,0 +1,68 @@
+title: KK的博客
+baseURL: https://spin6lock.github.io/
+defaultContentLanguage: zh
+locale: zh-CN
+hasCJKLanguage: true
+timeZone: Asia/Shanghai
+enableRobotsTXT: true
+enableEmoji: true
+buildFuture: true
+
+languages:
+  zh:
+    label: 简体中文
+    locale: zh-CN
+    title: KK的博客
+    params:
+      description: Don't Repeat Yourself · 好奇心驱动进步
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+      wrapStandAloneImageWithinParagraph: false
+  highlight:
+    noClasses: false
+
+outputs:
+  home: [HTML, RSS, markdown, LLMS]
+  page: [HTML]
+  section: [HTML, RSS, print, markdown]
+
+outputFormats:
+  RSS:
+    baseName: feed
+
+services:
+  googleAnalytics:
+    id: 'G-KVQ2HWX62D'
+
+params:
+  offline_search: true
+  github_repo: https://github.com/spin6lock/spin6lock.github.io
+  github_branch: master
+  copyright:
+    authors: spin6lock
+    from_year: 2009
+  ui:
+    preset: paper
+    preset_menu: [paper, slate, ink, terminal]
+    dark_mode: true
+    blog_index: list
+    blog_index_size: 12
+    sidebar_menu_foldable: true
+
+module:
+  mounts:
+    - source: assets/images
+      target: static/assets/images
+    - source: favicon.ico
+      target: static/favicon.ico
+  imports:
+    - path: github.com/pgsty/oink
+  hugoVersion:
+    extended: true
+    min: 0.168.0
