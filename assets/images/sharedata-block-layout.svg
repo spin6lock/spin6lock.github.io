@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg role="img" aria-labelledby="diagram-title diagram-desc" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="680" viewBox="0 0 864 612" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-09T00:25:48.584117</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.6.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title id="diagram-title">头长25字节而schema位于偏移34的新示例</title><desc id="diagram-desc">块首先编码整数7，A从9开始，头长25字节。A和B都引用偏移34的目录，目录存46、53、60，分别指向hp、id、mp的key编码。总块大小158字节。</desc><defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt} :root{--fg:#24354a;--muted:#667a90;--ink:#18324a;--blue:#b7dcff;--teal:#98e6cd;--yellow:#ffda75;--purple:#cbb8ff;--gray:#e0e8f2;--line:#607b96;--accent:#168b7c;--valuearrow:#ad7814;}@media(prefers-color-scheme:dark){:root{--fg:#dbe5f2;--muted:#9cacc0;--ink:#e0e9f5;--blue:#234b6d;--teal:#1e5149;--yellow:#655020;--purple:#493c68;--gray:#2c3746;--line:#6b8199;--accent:#58b7a7;--valuearrow:#c8a052;}}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 612 
+L 864 612 
+L 864 0 
+L 0 0 
+L 0 612 
+z
+" style="fill: none; opacity: 0"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 61.2 67.5 
+L 802.8 67.5 
+Q 810 67.5 810 74.7 
+L 810 110.7 
+Q 810 117.9 802.8 117.9 
+L 61.2 117.9 
+Q 54 117.9 54 110.7 
+L 54 74.7 
+Q 54 67.5 61.2 67.5 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--gray, #e9edf3); stroke: var(--line, #6d8198); stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 54 173.7 
+L 97.063291 173.7 
+L 97.063291 227.7 
+L 54 227.7 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--yellow, #ffe6a3); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 97.063291 173.7 
+L 216.683544 173.7 
+L 216.683544 227.7 
+L 97.063291 227.7 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--blue, #d9edff); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 216.683544 173.7 
+L 374.582278 173.7 
+L 374.582278 227.7 
+L 216.683544 227.7 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 374.582278 173.7 
+L 503.772152 173.7 
+L 503.772152 227.7 
+L 374.582278 227.7 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--yellow, #ffe6a3); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 503.772152 173.7 
+L 623.392405 173.7 
+L 623.392405 227.7 
+L 503.772152 227.7 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--blue, #d9edff); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 623.392405 173.7 
+L 752.582278 173.7 
+L 752.582278 227.7 
+L 623.392405 227.7 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--yellow, #ffe6a3); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 752.582278 173.7 
+L 810 173.7 
+L 810 227.7 
+L 752.582278 227.7 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--purple, #e5dcff); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 156.873418 227.7 
+L 156.873418 261.9 
+L 27 261.9 
+L 27 369 
+L 46.587539 369 
+" clip-path="url(#p65d49bbb66)" style="fill: none; stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 40.987539 366.2 
+L 46.587539 369 
+L 40.987539 371.8 
+L 40.987539 366.2 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--accent, #269a92); stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 563.582278 227.7 
+L 563.582278 279.9 
+L 27 279.9 
+L 27 369 
+L 46.587539 369 
+" clip-path="url(#p65d49bbb66)" style="fill: none; stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 40.987539 366.2 
+L 46.587539 369 
+L 40.987539 371.8 
+L 40.987539 366.2 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--accent, #269a92); stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 54 343.8 
+L 204.00003 343.8 
+L 204.00003 395.1 
+L 54 395.1 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 204.00003 343.8 
+L 354.00006 343.8 
+L 354.00006 395.1 
+L 204.00003 395.1 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 354.00006 343.8 
+L 504.00009 343.8 
+L 504.00009 395.1 
+L 354.00006 395.1 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 594 343.8 
+L 666 343.8 
+L 666 395.1 
+L 594 395.1 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--purple, #e5dcff); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 666 343.8 
+L 738 343.8 
+L 738 395.1 
+L 666 395.1 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--purple, #e5dcff); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 738 343.8 
+L 810 343.8 
+L 810 395.1 
+L 738 395.1 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--purple, #e5dcff); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 781.291139 227.7 
+L 781.291139 291.6 
+L 702 291.6 
+L 702 336.387539 
+" clip-path="url(#p65d49bbb66)" style="fill: none; stroke: var(--line, #6d8198); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 704.8 330.787539 
+L 702 336.387539 
+L 699.2 330.787539 
+L 704.8 330.787539 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--line, #6d8198); stroke: var(--line, #6d8198); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 128.9997 395.1 
+L 128.9997 429.3 
+L 27 429.3 
+L 27 506.7 
+L 46.587539 506.7 
+" clip-path="url(#p65d49bbb66)" style="fill: none; stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 40.987539 503.9 
+L 46.587539 506.7 
+L 40.987539 509.5 
+L 40.987539 503.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--accent, #269a92); stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 279 395.1 
+L 279 423
+L 301.5 423
+L 301.5 506.7
+L 307.587539 506.7 
+" clip-path="url(#p65d49bbb66)" style="fill: none; stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 301.987539 503.9 
+L 307.587539 506.7 
+L 301.987539 509.5 
+L 301.987539 503.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--accent, #269a92); stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 429.00003 395.1 
+L 429.00003 412.2 
+L 558 412.2 
+L 558 506.7 
+L 568.587539 506.7 
+" clip-path="url(#p65d49bbb66)" style="fill: none; stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 562.987539 503.9 
+L 568.587539 506.7 
+L 562.987539 509.5 
+L 562.987539 503.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--accent, #269a92); stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 54 481.5 
+L 87.3 481.5 
+L 87.3 531.9 
+L 54 531.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 87.3 481.5 
+L 220.5 481.5 
+L 220.5 531.9 
+L 87.3 531.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 220.5 481.5 
+L 287.1 481.5 
+L 287.1 531.9 
+L 220.5 531.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 315 481.5 
+L 348.3 481.5 
+L 348.3 531.9 
+L 315 531.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 348.3 481.5 
+L 481.5 481.5 
+L 481.5 531.9 
+L 348.3 531.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 481.5 481.5 
+L 548.1 481.5 
+L 548.1 531.9 
+L 481.5 531.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 576 481.5 
+L 609.3 481.5 
+L 609.3 531.9 
+L 576 531.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 609.3 481.5 
+L 742.5 481.5 
+L 742.5 531.9 
+L 609.3 531.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 742.5 481.5 
+L 809.1 481.5 
+L 809.1 531.9 
+L 742.5 531.9 
+z
+" clip-path="url(#p65d49bbb66)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: var(--fg, #25354c); font: 700 20.7px 'Noto Sans CJK JP'; text-anchor: start" x="32.4" y="36.178453" transform="rotate(-0 32.4 36.178453)">A  ·  解压块布局与共享字段目录</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: var(--ink, #20324a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="432" y="97.036594" transform="rotate(-0 432 97.036594)">[0]=7    A={hp=800,id=101,mp=60}    B={hp=950,id=102,mp=90}</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: var(--fg, #25354c); font: 700 16.2px 'Noto Sans CJK JP'; text-anchor: start" x="54" y="150.448641" transform="rotate(-0 54 150.448641)">decoded · 158 Byte</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: var(--ink, #20324a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="75.531646" y="205.036594" transform="rotate(-0 75.531646 205.036594)">7</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: var(--ink, #20324a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="156.873418" y="205.036594" transform="rotate(-0 156.873418 205.036594)">A 头</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: var(--ink, #20324a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="295.632911" y="204.998344" transform="rotate(-0 295.632911 204.998344)">目录 + key</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: var(--ink, #20324a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="439.177215" y="205.036594" transform="rotate(-0 439.177215 205.036594)">A 值</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: var(--ink, #20324a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="563.582278" y="205.036594" transform="rotate(-0 563.582278 205.036594)">B 头</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: var(--ink, #20324a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="687.987342" y="205.036594" transform="rotate(-0 687.987342 205.036594)">B 值</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: var(--ink, #20324a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="781.291139" y="205.036594" transform="rotate(-0 781.291139 205.036594)">索引</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="54" y="164.416219" transform="rotate(-0 54 164.416219)">0</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="97.063291" y="164.416219" transform="rotate(-0 97.063291 164.416219)">9</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="216.683544" y="164.416219" transform="rotate(-0 216.683544 164.416219)">34</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="374.582278" y="164.416219" transform="rotate(-0 374.582278 164.416219)">67</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="503.772152" y="164.416219" transform="rotate(-0 503.772152 164.416219)">94</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="623.392405" y="164.416219" transform="rotate(-0 623.392405 164.416219)">119</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="752.582278" y="164.416219" transform="rotate(-0 752.582278 164.416219)">146</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="810" y="164.416219" transform="rotate(-0 810 164.416219)">158</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: var(--fg, #25354c); font: 12.6px 'Noto Sans CJK JP'; text-anchor: middle" x="206.373418" y="250.171312" transform="rotate(-0 206.373418 250.171312)">schema=34</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: var(--fg, #25354c); font: 12.6px 'Noto Sans CJK JP'; text-anchor: middle" x="613.082278" y="250.171312" transform="rotate(-0 613.082278 250.171312)">schema=34</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: var(--fg, #25354c); font: 700 17.1px 'Noto Sans CJK JP'; text-anchor: start" x="54" y="315.7155" transform="rotate(-0 54 315.7155)">共享目录 @34</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="128.9997" y="333.557719" transform="rotate(-0 128.9997 333.557719)">34–37 Byte</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: var(--ink, #20324a); font: 19.8px 'Noto Sans CJK JP'; text-anchor: middle" x="129.000015" y="375.062063" transform="rotate(-0 129.000015 375.062063)">46</text>
+   </g>
+   <g id="text_24">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="278.99973" y="333.557719" transform="rotate(-0 278.99973 333.557719)">38–41 Byte</text>
+   </g>
+   <g id="text_25">
+    <text style="fill: var(--ink, #20324a); font: 19.8px 'Noto Sans CJK JP'; text-anchor: middle" x="279.000045" y="375.062063" transform="rotate(-0 279.000045 375.062063)">53</text>
+   </g>
+   <g id="text_26">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="428.99976" y="333.557719" transform="rotate(-0 428.99976 333.557719)">42–45 Byte</text>
+   </g>
+   <g id="text_27">
+    <text style="fill: var(--ink, #20324a); font: 19.8px 'Noto Sans CJK JP'; text-anchor: middle" x="429.000075" y="375.062063" transform="rotate(-0 429.000075 375.062063)">60</text>
+   </g>
+   <g id="text_28">
+    <text style="fill: var(--fg, #25354c); font: 700 16.2px 'Noto Sans CJK JP'; text-anchor: start" x="594" y="315.441" transform="rotate(-0 594 315.441)">记录索引 @146</text>
+   </g>
+   <g id="text_29">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="630" y="374.551875" transform="rotate(-0 630 374.551875)">0</text>
+   </g>
+   <g id="text_30">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="702" y="374.551875" transform="rotate(-0 702 374.551875)">9</text>
+   </g>
+   <g id="text_31">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="774" y="374.551875" transform="rotate(-0 774 374.551875)">94</text>
+   </g>
+   <g id="text_32">
+    <text style="fill: var(--fg, #25354c); font: 700 16.2px 'Noto Sans CJK JP'; text-anchor: start" x="54" y="451.048641" transform="rotate(-0 54 451.048641)">key @46</text>
+   </g>
+   <g id="text_33">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="70.65" y="471.257719" transform="rotate(-0 70.65 471.257719)">type</text>
+   </g>
+   <g id="text_34">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="70.65" y="511.801875" transform="rotate(-0 70.65 511.801875)">4</text>
+   </g>
+   <g id="text_35">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="153.9" y="471.193734" transform="rotate(-0 153.9 471.193734)">length</text>
+   </g>
+   <g id="text_36">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="153.9" y="511.801875" transform="rotate(-0 153.9 511.801875)">2</text>
+   </g>
+   <g id="text_37">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="253.8" y="471.286969" transform="rotate(-0 253.8 471.286969)">bytes</text>
+   </g>
+   <g id="text_38">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="253.8" y="511.801875" transform="rotate(-0 253.8 511.801875)">hp</text>
+   </g>
+   <g id="text_39">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="54" y="552.316219" transform="rotate(-0 54 552.316219)">46</text>
+   </g>
+   <g id="text_40">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="87.3" y="552.316219" transform="rotate(-0 87.3 552.316219)">47</text>
+   </g>
+   <g id="text_41">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="220.5" y="552.316219" transform="rotate(-0 220.5 552.316219)">51</text>
+   </g>
+   <g id="text_42">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="287.1" y="552.316219" transform="rotate(-0 287.1 552.316219)">53</text>
+   </g>
+   <g id="text_43">
+    <text style="fill: var(--fg, #25354c); font: 700 16.2px 'Noto Sans CJK JP'; text-anchor: start" x="315" y="451.048641" transform="rotate(-0 315 451.048641)">key @53</text>
+   </g>
+   <g id="text_44">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="331.65" y="471.257719" transform="rotate(-0 331.65 471.257719)">type</text>
+   </g>
+   <g id="text_45">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="331.65" y="511.801875" transform="rotate(-0 331.65 511.801875)">4</text>
+   </g>
+   <g id="text_46">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="414.9" y="471.193734" transform="rotate(-0 414.9 471.193734)">length</text>
+   </g>
+   <g id="text_47">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="414.9" y="511.801875" transform="rotate(-0 414.9 511.801875)">2</text>
+   </g>
+   <g id="text_48">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="514.8" y="471.286969" transform="rotate(-0 514.8 471.286969)">bytes</text>
+   </g>
+   <g id="text_49">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="514.8" y="511.801875" transform="rotate(-0 514.8 511.801875)">id</text>
+   </g>
+   <g id="text_50">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="315" y="552.316219" transform="rotate(-0 315 552.316219)">53</text>
+   </g>
+   <g id="text_51">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="348.3" y="552.316219" transform="rotate(-0 348.3 552.316219)">54</text>
+   </g>
+   <g id="text_52">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="481.5" y="552.316219" transform="rotate(-0 481.5 552.316219)">58</text>
+   </g>
+   <g id="text_53">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="548.1" y="552.316219" transform="rotate(-0 548.1 552.316219)">60</text>
+   </g>
+   <g id="text_54">
+    <text style="fill: var(--fg, #25354c); font: 700 16.2px 'Noto Sans CJK JP'; text-anchor: start" x="576" y="451.048641" transform="rotate(-0 576 451.048641)">key @60</text>
+   </g>
+   <g id="text_55">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="592.65" y="471.257719" transform="rotate(-0 592.65 471.257719)">type</text>
+   </g>
+   <g id="text_56">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="592.65" y="511.801875" transform="rotate(-0 592.65 511.801875)">4</text>
+   </g>
+   <g id="text_57">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="675.9" y="471.193734" transform="rotate(-0 675.9 471.193734)">length</text>
+   </g>
+   <g id="text_58">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="675.9" y="511.801875" transform="rotate(-0 675.9 511.801875)">2</text>
+   </g>
+   <g id="text_59">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="775.8" y="471.286969" transform="rotate(-0 775.8 471.286969)">bytes</text>
+   </g>
+   <g id="text_60">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="775.8" y="511.801875" transform="rotate(-0 775.8 511.801875)">mp</text>
+   </g>
+   <g id="text_61">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="576" y="552.316219" transform="rotate(-0 576 552.316219)">60</text>
+   </g>
+   <g id="text_62">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="609.3" y="552.316219" transform="rotate(-0 609.3 552.316219)">61</text>
+   </g>
+   <g id="text_63">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="742.5" y="552.316219" transform="rotate(-0 742.5 552.316219)">65</text>
+   </g>
+   <g id="text_64">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="809.1" y="552.316219" transform="rotate(-0 809.1 552.316219)">67</text>
+   </g>
+   <g id="text_65">
+    <text style="fill: var(--muted, #75849a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="432" y="591.136594" transform="rotate(-0 432 591.136594)">4 = STRING    ·    所有偏移相对解压块首地址</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p65d49bbb66">
+   <rect x="0" y="0" width="864" height="612"/>
+  </clipPath>
+ </defs>
+</svg>

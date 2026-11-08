@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg role="img" aria-labelledby="diagram-title diagram-desc" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="815" viewBox="0 0 864 733.5" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-09T00:25:48.664990</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.6.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title id="diagram-title">区分25字节的头长和偏移34的schema</title><desc id="diagram-desc">A从块内偏移9开始，三个字段的头和value偏移共25字节，其中schema字段值34指向块内目录。实际value在67、76、85；A和B共享目录，不同字段集合使用新目录。</desc><defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt} :root{--fg:#24354a;--muted:#667a90;--ink:#18324a;--blue:#b7dcff;--teal:#98e6cd;--yellow:#ffda75;--purple:#cbb8ff;--gray:#e0e8f2;--line:#607b96;--accent:#168b7c;--valuearrow:#ad7814;}@media(prefers-color-scheme:dark){:root{--fg:#dbe5f2;--muted:#9cacc0;--ink:#e0e9f5;--blue:#234b6d;--teal:#1e5149;--yellow:#655020;--purple:#493c68;--gray:#2c3746;--line:#6b8199;--accent:#58b7a7;--valuearrow:#c8a052;}}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 733.5 
+L 864 733.5 
+L 864 0 
+L 0 0 
+L 0 733.5 
+z
+" style="fill: none; opacity: 0"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 54 130.5 
+L 82.8 130.5 
+L 82.8 185.4 
+L 54 185.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--gray, #e9edf3); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 82.8 130.5 
+L 198 130.5 
+L 198 185.4 
+L 82.8 185.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--gray, #e9edf3); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 198 130.5 
+L 313.2 130.5 
+L 313.2 185.4 
+L 198 185.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--gray, #e9edf3); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 313.2 130.5 
+L 428.4 130.5 
+L 428.4 185.4 
+L 313.2 185.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 428.4 130.5 
+L 543.6 130.5 
+L 543.6 185.4 
+L 428.4 185.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--yellow, #ffe6a3); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 543.6 130.5 
+L 658.8 130.5 
+L 658.8 185.4 
+L 543.6 185.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--yellow, #ffe6a3); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 658.8 130.5 
+L 774 130.5 
+L 774 185.4 
+L 658.8 185.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--yellow, #ffe6a3); stroke: var(--line, #6d8198); stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 61.2 266.4 
+L 253.8 266.4 
+Q 261 266.4 261 273.6 
+L 261 319.5 
+Q 261 326.7 253.8 326.7 
+L 61.2 326.7 
+Q 54 326.7 54 319.5 
+L 54 273.6 
+Q 54 266.4 61.2 266.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 313.2 266.4 
+L 451.8 266.4 
+Q 459 266.4 459 273.6 
+L 459 319.5 
+Q 459 326.7 451.8 326.7 
+L 313.2 326.7 
+Q 306 326.7 306 319.5 
+L 306 273.6 
+Q 306 266.4 313.2 266.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--yellow, #ffe6a3); stroke: var(--line, #6d8198); stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 488.7 266.4 
+L 627.3 266.4 
+Q 634.5 266.4 634.5 273.6 
+L 634.5 319.5 
+Q 634.5 326.7 627.3 326.7 
+L 488.7 326.7 
+Q 481.5 326.7 481.5 319.5 
+L 481.5 273.6 
+Q 481.5 266.4 488.7 266.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--yellow, #ffe6a3); stroke: var(--line, #6d8198); stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 664.2 266.4 
+L 802.8 266.4 
+Q 810 266.4 810 273.6 
+L 810 319.5 
+Q 810 326.7 802.8 326.7 
+L 664.2 326.7 
+Q 657 326.7 657 319.5 
+L 657 273.6 
+Q 657 266.4 664.2 266.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--yellow, #ffe6a3); stroke: var(--line, #6d8198); stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 370.8 185.4 
+L 370.8 228.6 
+L 157.5 228.6 
+L 157.5 258.987539 
+" clip-path="url(#pf31a16d23b)" style="fill: none; stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 160.3 253.387539 
+L 157.5 258.987539 
+L 154.7 253.387539 
+L 160.3 253.387539 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--accent, #269a92); stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 486 185.4 
+L 486 246.6 
+L 382.5 246.6 
+L 382.5 258.987539 
+" clip-path="url(#pf31a16d23b)" style="fill: none; stroke: var(--valuearrow, #bd851c); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 385.3 253.387539 
+L 382.5 258.987539 
+L 379.7 253.387539 
+L 385.3 253.387539 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--valuearrow, #bd851c); stroke: var(--valuearrow, #bd851c); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 601.2 185.4 
+L 601.2 237.6 
+L 558 237.6 
+L 558 258.987539 
+" clip-path="url(#pf31a16d23b)" style="fill: none; stroke: var(--valuearrow, #bd851c); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 560.8 253.387539 
+L 558 258.987539 
+L 555.2 253.387539 
+L 560.8 253.387539 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--valuearrow, #bd851c); stroke: var(--valuearrow, #bd851c); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 716.4 185.4 
+L 716.4 228.6 
+L 733.5 228.6 
+L 733.5 258.987539 
+" clip-path="url(#pf31a16d23b)" style="fill: none; stroke: var(--valuearrow, #bd851c); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 736.3 253.387539 
+L 733.5 258.987539 
+L 730.7 253.387539 
+L 736.3 253.387539 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--valuearrow, #bd851c); stroke: var(--valuearrow, #bd851c); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 52.2 445.5 
+L 244.8 445.5 
+Q 252 445.5 252 452.7 
+L 252 495.9 
+Q 252 503.1 244.8 503.1 
+L 52.2 503.1 
+Q 45 503.1 45 495.9 
+L 45 452.7 
+Q 45 445.5 52.2 445.5 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--blue, #d9edff); stroke: var(--line, #6d8198); stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 52.2 555.3 
+L 244.8 555.3 
+Q 252 555.3 252 562.5 
+L 252 605.7 
+Q 252 612.9 244.8 612.9 
+L 52.2 612.9 
+Q 45 612.9 45 605.7 
+L 45 562.5 
+Q 45 555.3 52.2 555.3 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--blue, #d9edff); stroke: var(--line, #6d8198); stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 335.7 500.4 
+L 528.3 500.4 
+Q 535.5 500.4 535.5 507.6 
+L 535.5 550.8 
+Q 535.5 558 528.3 558 
+L 335.7 558 
+Q 328.5 558 328.5 550.8 
+L 328.5 507.6 
+Q 328.5 500.4 335.7 500.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 252 474.3 
+L 288 474.3 
+L 288 529.2 
+L 321.087539 529.2 
+" clip-path="url(#pf31a16d23b)" style="fill: none; stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 315.487539 526.4 
+L 321.087539 529.2 
+L 315.487539 532 
+L 315.487539 526.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--accent, #269a92); stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 252 584.1 
+L 288 584.1 
+L 288 529.2 
+L 321.087539 529.2 
+" clip-path="url(#pf31a16d23b)" style="fill: none; stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 315.487539 526.4 
+L 321.087539 529.2 
+L 315.487539 532 
+L 315.487539 526.4 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--accent, #269a92); stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 610.2 445.5 
+L 802.8 445.5 
+Q 810 445.5 810 452.7 
+L 810 495.9 
+Q 810 503.1 802.8 503.1 
+L 610.2 503.1 
+Q 603 503.1 603 495.9 
+L 603 452.7 
+Q 603 445.5 610.2 445.5 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--blue, #d9edff); stroke: var(--line, #6d8198); stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 610.2 605.7 
+L 802.8 605.7 
+Q 810 605.7 810 612.9 
+L 810 656.1 
+Q 810 663.3 802.8 663.3 
+L 610.2 663.3 
+Q 603 663.3 603 656.1 
+L 603 612.9 
+Q 603 605.7 610.2 605.7 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--teal, #c8f4e8); stroke: var(--line, #6d8198); stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 706.5 503.1 
+L 706.5 598.287539 
+" clip-path="url(#pf31a16d23b)" style="fill: none; stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 709.3 592.687539 
+L 706.5 598.287539 
+L 703.7 592.687539 
+L 709.3 592.687539 
+z
+" clip-path="url(#pf31a16d23b)" style="fill: var(--accent, #269a92); stroke: var(--accent, #269a92); stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: var(--fg, #25354c); font: 700 20.7px 'Noto Sans CJK JP'; text-anchor: start" x="32.4" y="36.178453" transform="rotate(-0 32.4 36.178453)">C  ·  table 头与共享字段目录</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: var(--fg, #25354c); font: 700 17.1px 'Noto Sans CJK JP'; text-anchor: start" x="54" y="84.551766" transform="rotate(-0 54 84.551766)">A 起点 = base + 9；头长 = 13 + 3×4 = 25 Byte</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: var(--ink, #20324a); font: 18.9px 'Noto Sans CJK JP'; text-anchor: middle" x="68.4" y="163.306969" transform="rotate(-0 68.4 163.306969)">5</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="68.4" y="116.657719" transform="rotate(-0 68.4 116.657719)">type</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: var(--ink, #20324a); font: 18.9px 'Noto Sans CJK JP'; text-anchor: middle" x="140.4" y="163.306969" transform="rotate(-0 140.4 163.306969)">3</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="140.4" y="116.716219" transform="rotate(-0 140.4 116.716219)">count</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: var(--ink, #20324a); font: 18.9px 'Noto Sans CJK JP'; text-anchor: middle" x="255.6" y="163.306969" transform="rotate(-0 255.6 163.306969)">0</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="255.6" y="116.716219" transform="rotate(-0 255.6 116.716219)">len</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: var(--ink, #20324a); font: 18.9px 'Noto Sans CJK JP'; text-anchor: middle" x="370.8" y="163.306969" transform="rotate(-0 370.8 163.306969)">34</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="370.8" y="116.716219" transform="rotate(-0 370.8 116.716219)">schema</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: var(--ink, #20324a); font: 18.9px 'Noto Sans CJK JP'; text-anchor: middle" x="486" y="163.306969" transform="rotate(-0 486 163.306969)">67</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="486" y="116.793" transform="rotate(-0 486 116.793)">hp offset</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: var(--ink, #20324a); font: 18.9px 'Noto Sans CJK JP'; text-anchor: middle" x="601.2" y="163.306969" transform="rotate(-0 601.2 163.306969)">76</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="601.2" y="116.716219" transform="rotate(-0 601.2 116.716219)">id offset</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: var(--ink, #20324a); font: 18.9px 'Noto Sans CJK JP'; text-anchor: middle" x="716.4" y="163.306969" transform="rotate(-0 716.4 163.306969)">85</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: var(--fg, #25354c); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="716.4" y="116.793" transform="rotate(-0 716.4 116.793)">mp offset</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="54" y="204.916219" transform="rotate(-0 54 204.916219)">+0</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="82.8" y="204.916219" transform="rotate(-0 82.8 204.916219)">+1</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="198" y="204.916219" transform="rotate(-0 198 204.916219)">+5</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="313.2" y="204.916219" transform="rotate(-0 313.2 204.916219)">+9</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="428.4" y="204.916219" transform="rotate(-0 428.4 204.916219)">+13</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="543.6" y="204.916219" transform="rotate(-0 543.6 204.916219)">+17</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="658.8" y="204.916219" transform="rotate(-0 658.8 204.916219)">+21</text>
+   </g>
+   <g id="text_24">
+    <text style="fill: var(--muted, #75849a); font: 11.7px 'Noto Sans CJK JP'; text-anchor: middle" x="774" y="204.916219" transform="rotate(-0 774 204.916219)">+25</text>
+   </g>
+   <g id="text_25">
+    <text style="fill: var(--ink, #20324a); font: 16.2px 'Noto Sans CJK JP'; text-anchor: middle" x="157.5" y="301.141687" transform="rotate(-0 157.5 301.141687)">34: [46,53,60]</text>
+   </g>
+   <g id="text_26">
+    <text style="fill: var(--ink, #20324a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="382.5" y="300.825633" transform="rotate(-0 382.5 300.825633)">67: INT | 800</text>
+   </g>
+   <g id="text_27">
+    <text style="fill: var(--ink, #20324a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="558" y="300.825633" transform="rotate(-0 558 300.825633)">76: INT | 101</text>
+   </g>
+   <g id="text_28">
+    <text style="fill: var(--ink, #20324a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="733.5" y="300.825633" transform="rotate(-0 733.5 300.825633)">85: INT | 60</text>
+   </g>
+   <g id="text_29">
+    <text style="fill: var(--fg, #25354c); font: 13.5px 'Noto Sans CJK JP'; text-anchor: middle" x="157.5" y="354.826406" transform="rotate(-0 157.5 354.826406)">46 → hp  53 → id  60 → mp</text>
+   </g>
+   <g id="text_30">
+    <text style="fill: var(--fg, #25354c); font: 700 18px 'Noto Sans CJK JP'; text-anchor: start" x="45" y="410.246719" transform="rotate(-0 45 410.246719)">字段集合相同才共享；实际 value 各自编码</text>
+   </g>
+   <g id="text_31">
+    <text style="fill: var(--ink, #20324a); font: 17.1px 'Noto Sans CJK JP'; text-anchor: middle" x="148.5" y="479.146781" transform="rotate(-0 148.5 479.146781)">A: {hp,id,mp}</text>
+   </g>
+   <g id="text_32">
+    <text style="fill: var(--ink, #20324a); font: 17.1px 'Noto Sans CJK JP'; text-anchor: middle" x="148.5" y="588.946781" transform="rotate(-0 148.5 588.946781)">B: {hp,id,mp}</text>
+   </g>
+   <g id="text_33">
+    <text style="fill: var(--ink, #20324a); font: 17.1px 'Noto Sans CJK JP'; text-anchor: middle" x="432" y="534.046781" transform="rotate(-0 432 534.046781)">S1: [hp,id,mp]</text>
+   </g>
+   <g id="text_34">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="706.5" y="479.401875" transform="rotate(-0 706.5 479.401875)">C: {id,mp}</text>
+   </g>
+   <g id="text_35">
+    <text style="fill: var(--ink, #20324a); font: 18px 'Noto Sans CJK JP'; text-anchor: middle" x="706.5" y="639.601875" transform="rotate(-0 706.5 639.601875)">S2: [id,mp]</text>
+   </g>
+   <g id="text_36">
+    <text style="fill: var(--fg, #25354c); font: 13.5px 'Noto Sans CJK JP'; text-anchor: middle" x="758.7" y="556.426406" transform="rotate(-0 758.7 556.426406)">新目录</text>
+   </g>
+   <g id="text_37">
+    <text style="fill: var(--muted, #75849a); font: 15.3px 'Noto Sans CJK JP'; text-anchor: middle" x="432" y="708.458133" transform="rotate(-0 432 708.458133)">同一块内，具有相同 key 集合的 table 共享一份字段目录</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf31a16d23b">
+   <rect x="0" y="0" width="864" height="733.5"/>
+  </clipPath>
+ </defs>
+</svg>
